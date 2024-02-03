@@ -1,4 +1,4 @@
-// price.js
+
 
 document.addEventListener('DOMContentLoaded', function () {
   // Add hover effect on pricing plans
@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  // Add click event to toggle featured class
   const toggleFeatured = function () {
     plans.forEach(plan => {
       plan.classList.remove('featured');
